@@ -41,8 +41,9 @@
   transition-duration: 0s;
 }
 
-.light{
-  background-color: #4C50FF;
+/* fun stuff, for when class becomes unset */
+.light-container div {
+  background-color: #AF202C;
   color: #FFF;
   width: 145px;
   height: 55px;
@@ -52,9 +53,16 @@
   -webkit-transition: color 0.8s, border 0.8s, background-color 0.8s;
   transition: color 0.8s, border 0.8s, background-color 0.8s;
 }
-.light-red{
+.light-container div:before {
+  content: "☠️";
+}
+
+div.light-red:before,
+div.light-green:before { content: ""; }
+
+div.light-red{
   background-color: #FF504C;
 }
-.light-green{
+div.light-green{
   background-color: #4CAF50;
 }
