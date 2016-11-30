@@ -2,7 +2,7 @@
   "name": "Applied-DOM",
   "version": "1.0.0",
   "description": "Additional Apply Bind Call Exercises",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "live-server"
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/devleague/Applied-DOM.git"
   },
   "keywords": [],
-  "author": "Ray Farias <rayrfarias@gmail.com> (http://github.com/sgnl)",
+  "author": "Dev League LLC",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/devleague/Applied-DOM/issues"
