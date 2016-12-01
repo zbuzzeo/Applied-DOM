@@ -13,3 +13,9 @@ Additional Apply Bind Call Exercises
 1. open your browser to `http://localhost:8080`
 1. your goal is to write click event handlers for each blue button, that when triggered, will turn it's "light" color from red to green
 1. commit after each button successfully turns it's light color to green
+
+## Notes
+
+The red lights will not turn green until you start adding event listeners. Do at least the first 3 instruction blocks before testing any buttons.
+
+You will know a button should do something when you add an event handler to it.
