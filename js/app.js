@@ -147,7 +147,7 @@
    * Declare a new const named setLight11Green
    * assign it's value to a reference to the function setMyLightClass
    * using the Function prototype method: bind
-   * to set the context to the btn10 object
+   * to set the context to the btn11 object
    *   passing 2 additional hardcoded arguments:
    *     null, 'light-green'
    */
