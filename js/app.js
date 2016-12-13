@@ -27,7 +27,7 @@
 
 
   /*
-   * Declare 14 constants btn1, btn2, btn3,...
+   * Declare 15 constants btn1, btn2, btn3, ...
    * use a dom element selector method to assign each const
    * to the button that has an id of the same name.
    */
