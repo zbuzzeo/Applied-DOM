@@ -13,8 +13,12 @@
    */
 
   function setMyLightGreen() {
+    if (!this.dataset) {
+      throw Error('Invalid input');
+    }
+
     const lightId = this.dataset.lightId;
-    document.getElementById(lightId).className = 'light-green';
+    document.querySelector(`#${lightId}`).className = 'light-green';
   }
 
   /*
@@ -30,8 +34,12 @@
    */
 
   function setMyLightClass(event, desiredClass) {
+    if (!this.dataset) {
+      throw Error('Invalid input');
+    }
+
     const lightId = this.dataset.lightId;
-    document.getElementById(lightId).className = desiredClass;
+    document.querySelector(`#${lightId}`).className = desiredClass;
   }
 
   /*
@@ -256,7 +264,8 @@
    */
 
   btn13.addEventListener('click', function (event) {
-    setMyLightClass.bind(this)(event, 'light-green');
+    // setMyLightClass.bind(this)(event, 'light-green');
+    setMyLightClass.bind(this, event, 'light-green')();
   });
 
   /*
