@@ -8,10 +8,14 @@
    * declare a variable named lightId
    * and assign it's value to the context's dataset.lightId property
    *
-   * use a dom method to select an element where it's ID matches the value of lightId
+   * use a dom method to select an element where its ID matches the value of lightId
    * on this dom element, set the className to 'light-green'
    */
 
+  const setMyLightGreen = () => {
+    const lightId = this.dataset.lightId;
+    document.getElementById(lightId).className = 'light-green';
+  }
 
   /*
    * Create a function named setMyLightClass
@@ -25,6 +29,10 @@
    * on this dom element, set the className to the value of desiredClass
    */
 
+  const setMyLightClass = (event, desiredClass) => {
+    const lightId = this.dataset.lightId;
+    document.getElementById(lightId).className = desiredClass;
+  }   
 
   /*
    * Declare 15 constants btn1, btn2, btn3, ...
@@ -32,6 +40,9 @@
    * to the button that has an id of the same name.
    */
 
+  const btn1, btn2, btn3, btn4, btn5, btn6, btn6, btn7, btn8, btn9, btn10, btn11, btn12, btn13, btn14, btn15;
+
+  
 
   /*
    * Add a click event listener to btn1
